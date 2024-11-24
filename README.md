@@ -33,7 +33,7 @@ Build Tool: Vite
 
 Hosting: GitHub Pages
 
-DevOps Tools: Docker, Jenkins
+DevOps Tools: Docker,Jenkins
 
 Version Control: Git and GitHub
 
