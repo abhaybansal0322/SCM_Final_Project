@@ -2,7 +2,10 @@ import { useState } from 'react'
 import InputBox from './components/InputBox'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 import { AnimatedTooltip } from "./components/animated-tooltip";
-
+import abhayImage from "./assets/abhay2.jpg";
+import tamannaImage from "./assets/tamanna.jpg";
+import anushkaImage from "./assets/anushka.jpg";
+import akshitaImage from "./assets/akshita.jpg";
 
 function App() {
 
@@ -31,29 +34,29 @@ function App() {
       id: 1,
       name: "Abhay Bansal",
       designation: "102217246",
-      image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+      image:abhayImage,
+        
     },
     {
       id: 2,
       name: "Tamanna",
       designation: "102203413",
-      image:
-        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      image:tamannaImage,
+        
     },
     {
       id: 3,
       name: "Anushka",
       designation: "102203819",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      image:anushkaImage,
+        
     },
     {
       id: 4,
       name: "Akshita",
       designation: "102203189",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      image:akshitaImage,
+        
     },
     
   ];
