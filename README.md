@@ -1,39 +1,43 @@
-# SCM_Final_Project
-Currency Converter Website
+# Currency Converter Website
 
-Project Description
+Project Overview
 
-This is a React-based currency converter application that allows users to convert between different currencies and added visual elements (like the icons and names). The app is Dockerized for easy deployment and integrated with Jenkins for Continuous Integration and Deployment (CI/CD).
-
+The Currency Converter Website is a modern, Vite-based React application designed to provide real-time currency conversion. With a sleek, responsive interface built using Tailwind CSS, the application ensures a seamless user experience across all devices. It integrates DevOps practices through Docker and Jenkins for containerization and CI/CD automation. The project is hosted publicly via GitHub Pages, making it accessible to users globally.
 
 
-Features
 
-Real-time currency conversion: 
-Convert between multiple currencies using up-to-date exchange rates.
+Key Features :
 
-Responsive Design: 
-Works seamlessly across devices.
+Real-Time Currency Conversion: Convert between multiple currencies with up-to-date exchange rates.
 
-Dockerized: 
-The app can be containerized for consistent development and production environments.
+Responsive Design: Built with Tailwind CSS, the app adapts seamlessly to mobile, tablet, and desktop devices.
 
-CI/CD Pipeline: 
-Automated build and deployment using Jenkins.
+Vite-Powered Setup: Utilizes Vite for lightning-fast builds and development.
+
+GitHub Pages Deployment: Hosted on GitHub Pages for free and public access.
+
+Dockerized Environment: Ensures consistent development and production environments using Docker.
+
+CI/CD with Jenkins: Automates build, testing, and deployment processes using Jenkins.
 
 
-Tech Stack
 
-Frontend: React.js, HTML, CSS, JavaScript
 
+Tech Stack :
+
+Frontend: React.js (Vite), HTML, JavaScript
+Styling: Tailwind CSS
+Build Tool: Vite
+Hosting: GitHub Pages
 DevOps Tools: Docker, Jenkins
-
 Version Control: Git and GitHub
+
+
 
 
 Project Setup
 
-Prerequisites
+Prerequisites :
 
 Node.js and npm installed
 
@@ -41,19 +45,25 @@ Docker installed
 
 Jenkins installed (for CI/CD)
 
-Team Contribution
+
+
+Team Contribution :
+
+
+Abhay: Developed the frontend using Vite, React, and Tailwind CSS, and deployed vite based react website on GitHub Pages.
+
+Tamanna: Contributed to frontend development, enhancing UI/UX and styling with Tailwind CSS.
+
+Anushka: Dockerized the application for consistent environments and documented the project setup.
+
+Akshita: Configured Jenkins pipelines for automated build, test, and deployment workflows.
 
 
 
-Abhay	  React App development (Frontend)
-
-Tamanna	  React App development (Frontend)
-
-Anushka	  Dockerizing the app and documentaion
-
-Akshita   Setting up Jenkins for CI/CD
+Screenshots of Website 
 
 
 ![alt text](image.png)
+
 
 ![alt text](image-1.png)
