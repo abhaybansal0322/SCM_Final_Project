@@ -26,10 +26,15 @@ CI/CD with Jenkins: Automates build, testing, and deployment processes using Jen
 Tech Stack :
 
 Frontend: React.js (Vite), HTML, JavaScript
+
 Styling: Tailwind CSS
+
 Build Tool: Vite
+
 Hosting: GitHub Pages
+
 DevOps Tools: Docker, Jenkins
+
 Version Control: Git and GitHub
 
 
