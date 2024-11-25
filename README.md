@@ -2,7 +2,7 @@
 
 Project Overview
 
-The Currency Converter Website is a modern, Vite-based React application designed to provide real-time currency conversion. With a sleek, responsive interface built using Tailwind CSS, the application ensures a seamless user experience across all devices. It integrates DevOps practices through Docker and Jenkins for containerization and CI/CD automation. The project is hosted publicly via GitHub Pages, making it accessible to users globally.
+The Currency Converter Website is a modern, Vite-based React application designed to provide Real-time currency conversion. With a sleek, responsive interface built using Tailwind CSS, the application ensures a seamless user experience across all devices. It integrates DevOps practices through Docker and Jenkins for containerization and CI/CD automation. The project is hosted publicly via GitHub Pages, making it accessible to users globally.
 
 
 
