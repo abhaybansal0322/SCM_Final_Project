@@ -57,7 +57,7 @@ Team Contribution :
 
 Abhay: Developed the frontend using Vite, React, and Tailwind CSS, and deployed vite based react website on GitHub Pages.
 
-Tamanna: Contributed to frontend development, enhancing UI/UX and styling with Tailwind CSS.
+Tamanna: Contributed to frontend development using vite, enhancing UI/UX and styling with Tailwind CSS.
 
 Anushka: Dockerized the application for consistent environments and documented the project setup.
 
