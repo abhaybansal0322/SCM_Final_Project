@@ -16,7 +16,7 @@ pipeline {
         stage('build docker image') {
             steps {
                 script {
-                    sh 'docker build -t abhaybansal0322/SCM_Final_Project:latest .'
+                    sh 'docker build -t abhaybansal0322/scm_final_project:latest .'
                 }
             }
         }
@@ -48,7 +48,7 @@ pipeline {
         // }
         stage('deploy to staging'){
             steps{
-                sh 'docker run -t abhaybansal0322/SCM_Final_Project:latest'
+                sh 'docker run -t abhaybansal0322/scm_final_project:latest'
             }
         }
     }
