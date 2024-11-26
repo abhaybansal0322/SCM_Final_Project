@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://abhaybansal0322.github.io/SCM_Final_Project/'
+                git branch: 'main', url: 'https://github.com/abhaybansal0322/SCM_Final_Project'
             }
         }
         stage('Install Dependencies') {
