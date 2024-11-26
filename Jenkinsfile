@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:18-alpine' // Use a Node.js Docker image compatible with your setup
+            image 'node:20-alpine' // Use a Node.js Docker image compatible with your setup
         }
     }
     environment {
@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Install Dependencies') {
             steps {
-                sh 'npm install' // Installs all dependencies from package.json
+                sh 'npm ci' // Installs all dependencies from package.json
             }
         }
         stage('Lint') {
