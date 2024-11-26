@@ -46,7 +46,7 @@ pipeline {
         //         sh 'npm run preview' // Optional: Preview the build to ensure it runs correctly
         //     }
         // }
-        stage(deploy to staging){
+        stage('deploy to staging'){
             steps{
                 sh 'docker run -t abhaybansal0322/SCM_Final_Project:latest'
             }
