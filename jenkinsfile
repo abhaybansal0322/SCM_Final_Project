@@ -1,0 +1,42 @@
+pipeline {
+    agent {
+        docker {
+            image 'node:16-alpine' // Docker image for Node.js
+        }
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://abhaybansal0322.github.io/SCM_Final_Project/'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'npm run build'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'npm test'
+            }
+        }
+        stage('Dockerize and Deploy') {
+            steps {
+                sh '''
+                docker build -t your-docker-image-name .
+                docker run -d -p 3000:3000 your-docker-image-name
+                '''
+            }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: 'build/**', fingerprint: true
+        }
+    }
+}
