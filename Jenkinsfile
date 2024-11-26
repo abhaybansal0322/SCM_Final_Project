@@ -48,7 +48,7 @@ pipeline {
         // }
         stage('deploy to staging'){
             steps{
-                sh 'docker run -t abhaybansal0322/scm_final_project:latest'
+                sh 'docker run -d -p 8080:8080 abhaybansal0322/scm_final_project:latest'
             }
         }
     }
